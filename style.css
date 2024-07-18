@@ -1,0 +1,36 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor div{
+    margin-bottom: 15px;
+    background: #54f523;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor div h2{
+    margin-bottom: 15px;
+}
+
+.contenedor div p,li{
+    font-size: 20px;
+    text-align: justify;
+}
